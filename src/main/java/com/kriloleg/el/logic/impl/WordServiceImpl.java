@@ -1,9 +1,9 @@
-package com.kriloleg.englishlearning.logic.impl;
+package com.kriloleg.el.logic.impl;
 
 import java.util.List;
 
-import com.kriloleg.englishlearning.dto.Word;
-import com.kriloleg.englishlearning.logic.WordService;
+import com.kriloleg.el.dto.Word;
+import com.kriloleg.el.logic.WordService;
 
 public class WordServiceImpl implements WordService {
 

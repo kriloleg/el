@@ -1,4 +1,4 @@
-package com.kriloleg.englishlearning.exceptions;
+package com.kriloleg.el.exceptions;
 
 public class FileNotFoundException extends RuntimeException {
 

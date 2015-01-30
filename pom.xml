@@ -45,10 +45,11 @@
 	                <goal>copy-dependencies</goal>
 	            </goals>
 	            <configuration>
-	                <outputDirectory>${project.build.directory}/lib</outputDirectory>
+	                <outputDirectory>${project.build.directory}/el/lib</outputDirectory>
 	                <overWriteReleases>false</overWriteReleases>
 	                <overWriteSnapshots>false</overWriteSnapshots>
 	                <overWriteIfNewer>true</overWriteIfNewer>
+	              	<includeScope>runtime</includeScope>
 	            </configuration>
 	        </execution>
 	    </executions>
@@ -58,11 +59,12 @@
 	    <groupId>org.apache.maven.plugins</groupId>
 	    <artifactId>maven-jar-plugin</artifactId>
 	    <configuration>
+	    	<finalName>el/el</finalName>
 	        <archive>
 	            <manifest>
 	                <addClasspath>true</addClasspath>
 	                <classpathPrefix>lib/</classpathPrefix>
-	                <mainClass>com.kriloleg.englishlearning.Start</mainClass>
+	                <mainClass>com.kriloleg.el.Start</mainClass>
 	            </manifest>
 	        </archive>
 	    </configuration>
@@ -79,7 +81,7 @@
 	              <goal>copy-resources</goal>
 	            </goals>
 	            <configuration>
-	              <outputDirectory>${basedir}/target/</outputDirectory>
+	              <outputDirectory>${basedir}/target/el/</outputDirectory>
 	              <resources>          
 	                <resource>
 	                  <directory>resources</directory>

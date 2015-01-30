@@ -1,4 +1,4 @@
-package com.kriloleg.englishlearning.dto;
+package com.kriloleg.el.dto;
 
 public class Word {
     private String value;

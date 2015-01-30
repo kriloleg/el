@@ -1,9 +1,9 @@
-package com.kriloleg.englishlearning.config;
+package com.kriloleg.el.config;
 
 import java.io.IOException;
 import java.util.Properties;
 
-import com.kriloleg.englishlearning.exceptions.FileNotFoundException;
+import com.kriloleg.el.exceptions.FileNotFoundException;
 
 public class Configurations {
     private static Configurations CONFIGURATIONS;

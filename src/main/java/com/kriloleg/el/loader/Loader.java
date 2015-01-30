@@ -1,4 +1,4 @@
-package com.kriloleg.englishlearning.loader;
+package com.kriloleg.el.loader;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-import com.kriloleg.englishlearning.exceptions.FileNotFoundException;
+import com.kriloleg.el.exceptions.FileNotFoundException;
 
 public class Loader {
     

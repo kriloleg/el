@@ -1,12 +1,12 @@
-package com.kriloleg.englishlearning;
+package com.kriloleg.el;
 
 import java.io.Console;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.kriloleg.englishlearning.loader.Loader;
-import com.kriloleg.englishlearning.parser.Parser;
+import com.kriloleg.el.loader.Loader;
+import com.kriloleg.el.parser.Parser;
 
 public class Start {
     private Loader loader;

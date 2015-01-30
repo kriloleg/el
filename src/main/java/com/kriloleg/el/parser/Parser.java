@@ -1,4 +1,4 @@
-package com.kriloleg.englishlearning.parser;
+package com.kriloleg.el.parser;
 
 import java.util.HashMap;
 import java.util.List;
